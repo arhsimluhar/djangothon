@@ -65,7 +65,14 @@ python manage.py migrate
 Features
 --------
 
-* TODO
+* How many hits were made to the website? You can check the website traffic with 3 options either last 24 hours, last 1 hour or 30 days page visits
+
+* From which countries user belonged?
+
+* What were the devices used by the user to access the website?
+* What is the average time taken to load a webpage?
+* What languages were supported by the client side?
+* What Browsers were used to access the site?
 
 Running Tests
 -------------
