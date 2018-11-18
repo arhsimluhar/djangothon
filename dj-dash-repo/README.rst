@@ -44,9 +44,17 @@ Add dj-dash's URL patterns:
 
     urlpatterns = [
         ...
-        url(r'^', include(dashboard_urls)),
+         path('analytics/', include(dashboard_urls)),
         ...
     ]
+Add new middleware 
+
+'dashboard.middleware.middlewares.SimpleMiddleware',
+
+
+Do Makemgirations and migrate to create database for dashboard package
+python manage.py makemigrations dashboard
+python manage.py migrate
 
 Features
 --------
