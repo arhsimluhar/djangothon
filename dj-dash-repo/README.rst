@@ -23,7 +23,7 @@ Quickstart
 
 Install dj-dash::
 
-    pip install dj-dash-repo
+    pip install dj_dash_repo-0.1.0-py2.py3-none-any.whl
 
 Add it to your `INSTALLED_APPS`:
 
